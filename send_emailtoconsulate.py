@@ -19,19 +19,7 @@ def send_email(subject, msg):
         print("Email failed to send.")
 
 subject = "Flag"
-msg = """Dear representitives,
-
-I am a 16 year old geography buff and have recently started collecting flags. I do not have your country's flag, but would you be so kind to send one my way? I would be very happy with any sort of flag. Thank you very much-- wishing for peace and prosperity to your country!
-
-Regards,
-
-Alexander
-
-
-24 Avon Road
-Hewlett, New York
-Nassau County 11557
-United States of America"""
+msg = """[Email message here!!!!!!!]"""
 
 for i in range(len(email_list)):
     EMAIL_ADDRESS_RECIPIENT = email_list[i]
